@@ -212,3 +212,42 @@ input:-ms-input-placeholder{
 	display: flex;
 	justify-content: space-between;
 }
+
+/*Estilos para la seccion de notcias*/
+main{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.noticias{
+	width: 31.5%;
+	cursor: pointer;
+	margin-top: 20px;
+}
+
+.noticias:hover{
+	outline-style: solid;
+	outline-color: rgba(125, 205, 24, 0.5);
+	outline-width: 3px;
+}
+.noticias:active{
+	transform: scale(.95);
+}
+.noticias img{
+	width: 100%;
+}
+.noticias a{
+	text-decoration: none;
+}
+.noticias h2{
+	font-size: 19px;
+	margin-top: 4px;
+	padding-bottom: 10px;
+	margin-bottom: 5px;
+}
+
+.escritor{
+	display: flex;
+	font-size: 13px;
+	justify-content: space-between;
+}
