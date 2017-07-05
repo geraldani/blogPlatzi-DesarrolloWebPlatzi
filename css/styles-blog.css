@@ -78,14 +78,14 @@ nav a:active {/*,.active*/
 	background: rgb(255, 72, 66);
 	border: none;
 	border-radius: 4px;
-	padding: 6px 8px;
+	padding: 8px 10px;
 	font-family: 'Lato', sans-serif;
 	font-weight: bold;
-	font-size: 14px;
+	font-size: 16px;
 	color: white;
 	cursor: pointer;
 	box-shadow: inset 0px -4px 0 0 rgba(208,39,42,0.75);
-	margin: 12px 5px 12px 18px;
+	margin: 12px 8px 12px 18px;
 	text-decoration: none;
 
 }
@@ -107,11 +107,12 @@ nav a:active {/*,.active*/
 	display: flex;
 	align-items: center;
 	justify-content: flex-end;
-	height: 30px;
+	height: 35px;
 	padding: 7px 0;
 }
 .busqueda input{
 	height: inherit;
+	width: 300px;
 	margin-right: 3px;
 	border:none;
 	padding: 0 8px;
@@ -123,7 +124,7 @@ nav a:active {/*,.active*/
 }
 .busqueda button{
 	height: inherit;
-	width: 30px;
+	width: 35px;
 	border: none;
 	border-radius: 5px;
 	cursor: pointer;
