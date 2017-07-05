@@ -102,3 +102,113 @@ nav a:active {/*,.active*/
 	box-shadow: inset 0px -4px 0 0 rgb(125, 205, 64);
 	transform: scale(.9);
 }
+
+.busqueda{
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	height: 30px;
+	padding: 7px 0;
+}
+.busqueda input{
+	height: inherit;
+	margin-right: 3px;
+	border:none;
+	padding: 0 8px;
+	border-radius: 5px;
+	outline: none;
+}
+.busqueda input:focus{
+	box-shadow: inset 0px 0px 10px 1px #ccc;
+}
+.busqueda button{
+	height: inherit;
+	width: 30px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	background-color: #333;
+	background-image: url(../images/search-white.svg);
+	background-size: 15px;
+	background-position: center; 
+	background-repeat: no-repeat;
+}
+
+.busqueda button:hover{
+	background-color: #444;
+	background-image: url(../images/search-grey.svg);
+}
+.busqueda button:active{
+	transform: scale(.9);
+}
+/*Estilo para el placeholder*/
+input::-webkit-input-placeholder{
+	color: silver;
+	font-size: 13px;
+	font-family: 'Lato', cursive;
+}
+input:-moz-placeholder{
+	color: silver;
+	font-size: 13px;
+	font-family: 'Lato', cursive;	
+}
+input:-ms-input-placeholder{
+	color: silver;
+	font-size: 13px;
+	font-family: 'Lato', cursive;
+}
+
+.portada{
+	background-image: url(../images/libros.jpg);
+	background-size: cover;
+	height: 400px;
+	display: flex;
+	align-items: flex-end;
+}
+
+.noticia-destacada{
+	margin: 0 0 25px 15px;
+	width: 50%;
+	background-color: rgba(238,238,238,0.8);
+	padding: 15px;
+}
+
+.noticia-destacada h1,
+.noticias h2{
+	font-family: 'Allerta', sans-serif;
+	color: #515151;
+	font-size: 23px;
+	font-weight: normal;
+	border-bottom: 0.5px solid #939393;
+}
+
+.noticia-destacada h1{
+	margin-bottom: 15px;
+	padding-bottom: 10px;
+}
+
+.info-escritor, 
+.escritor{
+	font-family: 'Happy Monkey', cursive;
+	font-size: 13px;
+	color: #333;
+}
+.avatar,
+.avatar p,
+.info-escritor time{
+	display: flex;
+	align-items: center;
+}
+.avatar img{
+	width: 30px;
+	border-radius: 50%;
+	margin-right: 8px;
+}
+
+.avatar p{
+	height: 100%;
+}
+.info-escritor{
+	display: flex;
+	justify-content: space-between;
+}
